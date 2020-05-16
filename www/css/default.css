@@ -1529,7 +1529,7 @@ table.guests .guest .to .errors .details {
 .download_decryption_disabled,
 #encryption_description_disabled_container,
 #encryption_description_container {
-    display: none;
+/*    display: none; */
 }
 
 #encryption_password_container_too_short_message {

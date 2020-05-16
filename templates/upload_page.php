@@ -188,7 +188,7 @@ if(Auth::isGuest()) {
                     
                     <?php if(Config::get('encryption_enabled')) {  ?>
                         <div class="fieldcontainer" id="encrypt_checkbox" data-related-to="encryption">
-                            <input id="encryption" name="encryption" type="checkbox">
+                            <input id="encryption" name="encryption" type="checkbox" checked>
                             <label for="encryption" style="cursor: pointer;">{tr:file_encryption}</label>
                         </div>
                         <div class="fieldcontainer" id="encryption_password_container">  
